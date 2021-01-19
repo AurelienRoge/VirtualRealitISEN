@@ -1,0 +1,296 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    color:white;
+}
+
+.body{
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(9,23,47,1)), url(img/mainpage.jpg);
+    background-color:#09172f;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 6rem;
+}
+
+.virtualrealitisen{
+    margin: 200px 0px;
+    transition-property: color;
+    transition-duration: 0.5s;
+    text-align: center;
+    color: #c21a00;
+}
+
+p{
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+p:hover{
+    color:#c21a00;
+}
+
+.virtualrealitisen:hover{
+    color:white;
+}
+
+.logoheader{
+    width: 75px;
+    margin:0 80% 0 0;
+    position:absolute;
+}
+
+.navheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.navheader li a{
+    text-decoration: none;
+    color: white;
+    transition: color .2s;
+}
+
+.navheader li a:hover{
+    color:#c21a00;
+}
+
+.limerveilles,.licontact,.lireseaux{
+    margin: 25px 15px;
+}
+
+.lireseaux{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+h1,h2,h3{
+    line-height: 1.2em;
+}
+
+h1,h2{
+    margin:1rem 0;
+}
+.pageprincipale{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1200px;
+}
+.mainpagemain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.mainpagedesc{
+    text-align: justify;
+    font-size: 2rem;
+    margin: 120px 0;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap {
+    padding-bottom: 300px;    /* TAILLE DU FOOTER */
+}
+  
+
+
+/* Les avis */
+
+.lesavis{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 100px 0px;
+}
+
+.avis{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #c21a00;
+    height: 200px;
+    width: 350px;
+    background-color: #09172f;
+    transition: all .4s;
+}
+
+.avis:hover{
+    transform: translateZ(0) scale(1.1);
+}
+
+.pavistitle{
+    font-size: 2rem;
+    text-align: justify;
+    margin: 10px 10px;
+    font-weight: bold;
+}
+
+.pavis{
+    font-size: 1.7rem;
+    text-align: justify;
+    margin: 5px 10px;
+}
+
+.pavis3{
+    font-size: 1.4rem;
+    text-align: justify;
+    margin: 5px 10px;
+}
+
+.pavisauteur{
+    font-size: 1.2rem;
+    font-style: italic;
+    justify-content: end;
+}
+
+.pavisauteur3{
+    font-size: 1.2rem;
+    font-style: italic;
+    justify-content: end;
+    margin:10px;
+}
+
+/* Page des 7 merveilles */
+.lesmerveilles{
+    display: flex;
+    justify-content: center;
+}
+.pagemerveilles{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+}
+
+/* FOOTER */
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer h2{
+    transition: .3s;
+    transition-property: color;
+}
+
+footer h2:hover{
+    color:yellow;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 210px;            /* TAILLE DU FOOTER */
+}
+
+footer{
+    background-color:#c21a00;
+    height: 210px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footersupport i{
+    color:white;
+}
+
+.footerinfo{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 10px;
+}
+
+.footerinfo h2{
+    font-family: 'Bree Serif', serif;
+    font-weight: bolder;
+}
+.footerinfo a{
+    color:white;
+}
+
+.footerinfo a:hover{
+    color:yellow;
+}   
+
+.copyright{
+    display: flex;
+    background-color:#701010;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    height: 35px;
+}
+
+/*PAGE CONTACT*/
+.contact{
+    background-color: #09172f;
+}
+
+.contactmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    height: 850px;
+    font-weight: 700;
+}
+
+.contact .contactmail{
+    font-size: 5rem;
+    margin: 15px 0;
+}
+
+.contactmail a{
+    color: white;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: .2s;
+}
+
+.contactmaildessous a{
+    color:white;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: .2s;
+}
+
+.contactmail a:hover{
+    color: #c21a00;
+}
+
+.contactmaildessous a:hover{
+    color: #c21a00;
+}
