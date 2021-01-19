@@ -57,7 +57,7 @@ p:hover{
 .navheader{
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: flex-end;
     list-style-type: none;
     color: white;
     font-size: 1.4rem;
