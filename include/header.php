@@ -19,10 +19,10 @@
                         <li class="limerveilles"><a href="merveilles.php">Les merveilles</a></li>
                         <li class="licontact"><a href="contact.php">Nous contacter</a></li>
                         <li class="lireseaux">
-                            <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram fa-x"></i></a>
-                            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-x"></i></a>
-                            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-x"></i></a>
-                            <a href="https://www.tripadvisor.com/" target="_blank"><i class="fab fa-tripadvisor fa-x"></i></a>
+                            <a href="https://instagram.com/" target="_blank" class="igicon"><i class="fab fa-instagram fa-x"></i></a>
+                            <a href="https://twitter.com/" target="_blank" class= "twittericon"><i class="fab fa-twitter fa-x"></i></a>
+                            <a href="https://www.youtube.com/" target="_blank" class="yticon"><i class="fab fa-youtube fa-x"></i></a>
+                            <a href="https://www.tripadvisor.com/" target="_blank" class="tripicon"><i class="fab fa-tripadvisor fa-x"></i></a>
                            
                         </li>
                     </ul>

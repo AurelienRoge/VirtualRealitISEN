@@ -4,11 +4,9 @@
             <section>
                 <h2>Informations</h2>
 
-                <a href="index.html">Accueil</a><br>
-                <a href="#noschambres">Chambres et suites</a><br>
-                <a href="#hotel">Notre hôtel</a><br>
-                <a href="#offres">Offres spéciales</a><br>
-                <a href="contact.html">Nous contacter</a><br>
+                <a href="index.php">Accueil</a><br>
+                <a href="merveilles.php">Les anciennes merveilles du monde</a><br>
+                <a href="contact.php">Nous contacter</a><br>
                 <a href="">Mentions légales</a><br>
             </section>
             <section>
