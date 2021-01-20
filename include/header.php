@@ -13,10 +13,11 @@
     <div id="page-container">
         <div id="content-wrap">
             <header>
-            <a href="index.php" class="logoheader"><img src="img/logo.png" alt="VIRTUAL REALIT'ISEN" width="80" height="80"></a>
+            <a href="index.php" class="logoheader"><img src="img/virtual_realitisen.png" alt="VIRTUAL REALIT'ISEN" width="80" height="80"></a>
                 <nav>
                     <ul class="navheader">
                         <li class="limerveilles"><a href="merveilles.php">Les merveilles</a></li>
+                        <li class="linotreprojet"><a href="projet.php">Notre projet</a></li>
                         <li class="licontact"><a href="contact.php">Nous contacter</a></li>
                         <li class="lireseaux">
                             <a href="https://instagram.com/" target="_blank" class="igicon"><i class="fab fa-instagram fa-x"></i></a>

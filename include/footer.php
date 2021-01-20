@@ -20,7 +20,7 @@
             <section class="connecte">
                 <h2>Soutenez-nous !</h2>
                 <div class="icons">
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
                     <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
                     <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
                     <a href="https://www.tripadvisor.com/" target="_blank"><i class="fab fa-tripadvisor fa-2x"></i></a>
