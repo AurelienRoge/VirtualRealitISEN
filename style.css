@@ -417,3 +417,136 @@ span:hover{
     text-align: justify;
     margin: 20px 0px 20px 0px;
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 600px){
+
+    /* HEADER */
+    .logoheader{
+        position: relative;
+        padding: 0px 50%;
+        margin: 0;
+        background-color: #c21a00;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .navheader{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .limerveilles,.linotreprojet,.lireseaux,.licontact{
+        margin: 10px;
+    }
+
+    /* FOOTER */
+    #content-wrap {
+        padding-bottom: 500px;    /*TAILLE DU FOOTER*/
+    }
+
+    #footer {
+        height: 450px;            /*TAILLE DU FOOTER*/ 
+    }
+
+    .footerinfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerinfo section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .footerinfo section a{
+        padding: 5px 0;
+    }
+
+    .copyright{
+        height: 100px;
+        text-align: center;
+    }
+
+    /* INDEX.PHP */
+    .virtualrealitisen{
+        font-size: 4rem;
+        margin: 5rem 0 2rem;
+    }
+
+    .mainpagedesc{
+        font-size: 1.45rem;
+        max-width: 300px;
+    }
+
+    .lesavis{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+    .avis{
+        margin: 1rem 0;
+    }
+
+    /* MERVEILLES.PHP */
+    .pagemerveilles h1{
+        font-size: 1.4rem;
+        margin: 20px 0 0 0;
+    }
+
+    .pagemerveilles article img{
+        width: 300px;
+        margin: 0 10%;
+    }
+
+
+    .pagemerveilles article p{
+        margin: 0 3%;
+        height: 500px;
+        text-align: justify;
+    }
+
+    .pagemerveilles{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    aside{
+        height: 3.2%;
+        width: 80%;
+    }
+
+    /* Petits ajustements des asides */
+    .asidekheops{
+        margin: 470px 10%;
+    }
+    .asidebabylone{
+        margin: 475px 10%;
+    }
+    .asidezeus{
+        margin: 540px 10%;
+    }
+    .asideartemis{
+        margin: 400px 10%;
+    }
+    .asidemausolee{
+        margin: 400px 10%;
+    }
+    .asiderhodes{
+        margin: 558px 10%;
+    }
+    .asidealexandrie{
+        margin: 500px 10%;
+    }
+    .h2funfactalexandrie{
+        margin: 5px 0;
+    }
+}

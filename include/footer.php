@@ -11,7 +11,6 @@
             </section>
             <section>
                 <h2>Nos coordonnées</h2>
-
                 <a href="https://g.page/ISEN-Lille?share" target="_blank"><i class="fas fa-map-marker-alt"></i> 41 Boulevard Vauban, 59800 Lille</a>
                 <br>
                 <a href="tel:+33123444667"><i class="fas fa-phone"></i> +33 1 05 44 46 67<br></a>
