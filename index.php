@@ -1,12 +1,14 @@
 <?php
+$merveilles = "passive";
+$contact = "passive";
+$projet = "passive";
 require 'include/header.php'
 ?>
     <main class="main">
     <h1 class="virtualrealitisen">Virtual Realit'ISEN</h1>
         <section class="pageprincipale">
             <article class="mainpagemain">
-            <!--<img class="centre" src="img/salle_realite_virtuelle.png" alt="Notre salle de réalité virtuelle" height="750" width="1500" >-->
-            <p class="mainpagedesc">Vous rêvez de pouvoir visiter les anciennes merveilles du monde ? Ces joyaux de l'humanité aujourd'hui disparus ? C'est désormais possible grâce à Virtual Realit'ISEN ! Premiers dans ce domaines, nous proposons des visites de ces 7 trésors grâce à la réalité virtuelle ! Embarquez dès aujourd'hui dans un voyage au travers des âge à couper le souffle !</p>
+            <p class="mainpagedesc">Vous rêvez de pouvoir visiter les anciennes merveilles du monde ? Ces joyaux de l'humanité aujourd'hui disparus ? C'est désormais possible grâce à Virtual Realit'ISEN ! Premiers dans ce domaines, nous proposons des visites de ces 7 trésors grâce à la réalité virtuelle ! Embarquez dès aujourd'hui dans un voyage au travers des âges à couper le souffle !</p>
             </article>
             <div class=lesavis>
                     <div class="avis">

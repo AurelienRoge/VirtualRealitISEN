@@ -16,9 +16,11 @@
             <a href="index.php" class="logoheader"><img src="img/virtual_realitisen.png" alt="VIRTUAL REALIT'ISEN" width="80" height="80"></a>
                 <nav>
                     <ul class="navheader">
-                        <li class="limerveilles"><a href="merveilles.php">Les merveilles</a></li>
-                        <li class="linotreprojet"><a href="projet.php">Notre projet</a></li>
-                        <li class="licontact"><a href="contact.php">Nous contacter</a></li>
+                    <?php
+                        printf("<li class='limerveilles %s'><a href='merveilles.php'>Les merveilles</a></li>",$merveilles);
+                        printf("<li class='linotreprojet %s'><a href='projet.php'>Notre projet</a></li>",$projet);
+                        printf("<li class='licontact %s'><a href='contact.php'>Nous contacter</a></li>", $contact);
+                        ?>
                         <li class="lireseaux">
                             <a href="https://instagram.com/" target="_blank" class="igicon"><i class="fab fa-instagram fa-x"></i></a>
                             <a href="https://twitter.com/" target="_blank" class= "twittericon"><i class="fab fa-twitter fa-x"></i></a>

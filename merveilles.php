@@ -1,4 +1,7 @@
 <?php
+$merveilles = "active";
+$contact = "passive";
+$projet = "passive";
 require 'include/header.php'
 ?>
    <main class="lesmerveilles">

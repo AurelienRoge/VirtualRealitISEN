@@ -68,18 +68,27 @@ p:hover{
     font-size: 1.4rem;
 }
 
+.active{
+    background-color: #c21a00;
+}
+
+.active a:hover{
+    color: #09172f;
+}
+
 .navheader li a{
     text-decoration: none;
     color: white;
     transition: color .2s;
 }
 
-.navheader li a:hover{
+.navheader .passive a:hover{
     color:#c21a00;
 }
 
 .limerveilles,.licontact,.lireseaux,.linotreprojet{
-    margin: 25px 15px;
+    margin: 20px 5px;
+    padding: 5px 10px
 }
 
 .lireseaux{
@@ -87,6 +96,8 @@ p:hover{
     display: flex;
     justify-content: space-between;
 }
+
+
 
 .igicon:hover,.twittericon:hover,.yticon:hover,.tripicon:hover{
     transform: scale(1.5);
@@ -263,6 +274,7 @@ footer a:hover{
 }
 
 footer h2{
+    color: white;
     transition: .3s;
     transition-property: color;
 }
@@ -362,4 +374,34 @@ footer{
 
 .contactmaildessous a:hover{
     color: #c21a00;
+}
+
+
+/*Page notre projet*/
+
+.notreprojetpage{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.notreprojetpage h1,h2{
+    color: #c21a00;
+    transition-property: color;
+    transition-duration: .2s;
+}
+
+.notreprojetpage h1:hover,h2:hover{
+    color: white;
+}
+
+.notreprojetpage h2{
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.notreprojetpage p{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 20px 0px 20px 0px;
 }
