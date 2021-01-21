@@ -119,7 +119,7 @@ h1,h2{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 1200px;
+    max-width: 1200px;
 }
 
 .mainpagemain{
@@ -153,7 +153,7 @@ h1,h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1200px;
+    max-width: 1200px;
     margin: 100px 0px;
 }
 
@@ -215,7 +215,7 @@ h1,h2{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 1200px;
+    max-width: 1200px;
 }
 
 .pagemerveilles h1{
@@ -241,7 +241,7 @@ h1,h2{
 }
 
 .pagemerveilles img{
-    width:900px;
+    max-width:900px;
 }
 
 aside{
@@ -392,7 +392,7 @@ span:hover{
 /*Page notre projet*/
 
 .notreprojetpage{
-    width: 1200px;
+    max-width: 1200px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -410,12 +410,13 @@ span:hover{
 .notreprojetpage h2{
     font-size: 3rem;
     margin: 20px 0;
+    text-align: center;
 }
 
 .notreprojetpage p{
     font-size: 1.5rem;
     text-align: justify;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 5%;
 }
 
 /* RESPONSIVE */
@@ -481,7 +482,7 @@ span:hover{
 
     .mainpagedesc{
         font-size: 1.45rem;
-        max-width: 300px;
+        margin: 120px 5%;
     }
 
     .lesavis{
@@ -501,9 +502,20 @@ span:hover{
         margin: 20px 0 0 0;
     }
 
+    .pagemerveilles h2{
+        text-align: center;
+    }
+
+    .pagemerveilles div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
     .pagemerveilles article img{
-        width: 300px;
-        margin: 0 10%;
+        width: 350px;
+        margin: 3% 10%;
     }
 
 
@@ -526,27 +538,74 @@ span:hover{
 
     /* Petits ajustements des asides */
     .asidekheops{
-        margin: 470px 10%;
+        margin: 505px 10%;
     }
     .asidebabylone{
-        margin: 475px 10%;
+        margin: 510px 10%;
     }
     .asidezeus{
-        margin: 540px 10%;
+        margin: 605px 10%;
     }
     .asideartemis{
-        margin: 400px 10%;
+        margin: 435px 10%;
     }
     .asidemausolee{
-        margin: 400px 10%;
+        margin: 435px 10%;
     }
     .asiderhodes{
-        margin: 558px 10%;
+        margin: 605px 10%;
     }
     .asidealexandrie{
-        margin: 500px 10%;
+        margin: 555px 10%;
     }
     .h2funfactalexandrie{
         margin: 5px 0;
+    }
+
+    /* CONTACT.PHP */
+
+    .notreprojetpage h1{
+        font-size: 3.5rem;
+    }
+
+    .notreprojetpage h2{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .notreprojetpage p{
+        font-size: 1.05rem;
+        margin: 0 5%;
+        text-align: justify;
+    }
+
+    .notreprojetpage{
+        width: 100%;
+    }
+
+    /* CONTACT.PHP */
+    .contactmail{
+        margin: 0 3%
+    }
+
+    .contactmail a{
+        font-size: 2.1rem;
+    }
+
+    .contactmaildessous{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    span{
+        color:rgba(0,0,0,0);
+    }
+
+    .contactmaildessous a{
+        font-size: 1.5rem;
+        margin: 3%;
+        text-align: center;
     }
 }
