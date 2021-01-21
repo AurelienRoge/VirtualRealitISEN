@@ -68,6 +68,10 @@ p:hover{
     font-size: 1.4rem;
 }
 
+.navheader .lireseaux a:hover{
+    color: #c21a00;
+    transition:all 0.3s
+}
 .active{
     background-color: #c21a00;
 }
@@ -79,7 +83,7 @@ p:hover{
 .navheader li a{
     text-decoration: none;
     color: white;
-    transition: color .2s;
+    transition: color .3s;
 }
 
 .navheader .passive a:hover{
@@ -358,14 +362,14 @@ footer{
     color: #c21a00;
     text-decoration: none;
     transition-property: color;
-    transition-duration: .2s;
+    transition-duration: .3s;
 }
 
 .contactmaildessous a{
     color:white;
     text-decoration: none;
     transition-property: color;
-    transition-duration: .2s;
+    transition-duration: .3s;
 }
 
 .contactmail a:hover{
@@ -374,6 +378,14 @@ footer{
 
 .contactmaildessous a:hover{
     color: #c21a00;
+}
+
+span{
+    transition: all .3s;
+}
+
+span:hover{
+    color:#c21a00
 }
 
 
@@ -388,7 +400,7 @@ footer{
 .notreprojetpage h1,h2{
     color: #c21a00;
     transition-property: color;
-    transition-duration: .2s;
+    transition-duration: .3s;
 }
 
 .notreprojetpage h1:hover,h2:hover{
