@@ -445,11 +445,11 @@ span:hover{
 
     /* FOOTER */
     #content-wrap {
-        padding-bottom: 500px;    /*TAILLE DU FOOTER*/
+        padding-bottom: 650px;    /*TAILLE DU FOOTER*/
     }
 
     #footer {
-        height: 450px;            /*TAILLE DU FOOTER*/ 
+        height: 550px;            /*TAILLE DU FOOTER*/ 
     }
 
     .footerinfo{
@@ -589,7 +589,7 @@ span:hover{
     }
 
     .contactmail a{
-        font-size: 2.1rem;
+        font-size: 2rem;
     }
 
     .contactmaildessous{

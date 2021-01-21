@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="icon" type="image/png" href="img/logo.png"/>
 </head>
 <body class=contact>
 <div id="page-container">
         <div id="content-wrap">
             <header>
-            <a href="index.php" class="logoheader"><img src="img/virtual_realitisen.png" alt="VIRTUAL REALIT'ISEN" width="80" height="80"></a>
+            <a href="index.php" class="logoheader"><img src="img/logo.png" alt="VIRTUAL REALIT'ISEN" width="80" height="80"></a>
                 <nav>
                     <ul class="navheader">
                     <?php
