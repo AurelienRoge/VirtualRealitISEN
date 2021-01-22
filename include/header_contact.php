@@ -6,6 +6,7 @@
     <title>Virtual Realit'ISEN</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="description" content="Virtual Realit'ISEN, leader de la visite en réalité virtuelle">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="icon" type="image/png" href="img/logo.png"/>

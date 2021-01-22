@@ -6,10 +6,10 @@ require 'include/header.php'
 ?>
     <main class="main">
     <h1 class="virtualrealitisen">Virtual Realit'ISEN</h1>
-        <section class="pageprincipale">
-            <article class="mainpagemain">
+        <div class="pageprincipale">
+            <div class="mainpagemain">
             <p class="mainpagedesc">Vous rêvez de pouvoir visiter les anciennes merveilles du monde ? Ces joyaux de l'humanité aujourd'hui disparus ? C'est désormais possible grâce à Virtual Realit'ISEN ! Premiers dans ce domaines, nous proposons des visites de ces 7 trésors grâce à la réalité virtuelle ! Embarquez dès aujourd'hui dans un voyage au travers des âges à couper le souffle !</p>
-            </article>
+            </div>
             <div class=lesavis>
                     <div class="avis">
                         <div class="avisenfant"><img src="img/5stars.png" alt="avis 5 étoiles" width="100">
@@ -36,7 +36,7 @@ require 'include/header.php'
                         <p class="pavisauteur3">Thomas C.</p>
                     </div>
             </div>
-        </section>
+        </div>
     </main>
 <?php
 require 'include/footer.php'
