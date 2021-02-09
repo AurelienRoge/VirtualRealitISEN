@@ -16,7 +16,7 @@ require 'include/header.php'
                             Avis écrit le 17 décembre 2020
                         </div>
                         <p class="pavistitle">Incroyable</p>
-                        <p class="pavis">Époustoufflant ! C'est d'une fidélité incroyable !</p>
+                        <p class="pavis">Époustouflant ! C'est d'une fidélité incroyable !</p>
                         <p class="pavisauteur">Antoine V.</p>
                     </div>
                     <div class="avis">
